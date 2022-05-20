@@ -106,47 +106,4 @@ input[type=text] {
 
 
 
-/* /function Login() {
-  const [password,setPassword] = useState("")
-  const [color,setColor] = useState("black")
-  const [strength,setStrength] = useState("")
-  const [password1,setPassword1] = useState("")
-  //regular expression
-  var regex = new Array();
-  regex.push("[A-Z]"); //Uppercase Alphabet.
-  regex.push("[a-z]"); //Lowercase Alphabet.
-  regex.push("[0-9]"); //Digit.
-  regex.push("[$@$!%*#?&]");
-  var pass = 2;
-  //validation for eachregular expression
-  regex.forEach((ele) => {
-      if(new RegExp(ele).test(password)){
-          pass++
-      }
 
-  });
-  //validation for length of the password
-  if(pass>2 && password.length>8){
-      pass++
-  }
-  // displayed status
-  
-  switch(pass){
-      case 0:
-          case 1:
-              setStrength("low");
-              setColor("red");
-              break;
-
-              case 2:
-                  setStrength("medium");
-                  setColor("orange");
-                  break;
-                  
-              case 3:
-              case 4:
-                  setStrength("high");
-                  setColor("green");
-                  break;
-  }
-return*/ 
