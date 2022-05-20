@@ -1,0 +1,152 @@
+
+* { box-sizing: border-box }
+
+body{
+  margin:0;
+  padding:0;
+  color: white;
+ 
+	width:100%
+}
+body{
+	 background-color: black;
+  background-image: -webkit-linear-gradient(150deg, 
+#1B53A0 50%, #FFFFFF 50%);
+}
+
+
+.example{
+    position: relative;
+  background-color: #34ADFF;
+  background-image: -webkit-linear-gradient(150deg, #1B53A0 50%, #FFFFFF 50%);
+  min-height:700px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	width:90%;
+	margin:30px  auto;
+   
+}
+.form{
+    position:absolute;
+    width: 30%;
+  left: 65%;
+    top:25%;
+    padding: 10px;
+}
+.logo{
+    width: 30%;
+    position: absolute;
+    top: 30%;
+   left: 15%;
+
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #4C79F8;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 100px;
+
+  }
+  
+  input[type=submit]:hover {
+    background-color: rgba(4, 2, 20, 0.623);
+  }
+  .remember{
+   padding-right: 2px;
+    margin-right: 130px;
+    
+  }
+  .recover{
+      color: cornflowerblue;
+  }
+  .remember:hover{
+      cursor: pointer;
+  }
+  .recover:hover{
+      cursor: pointer;
+  }
+  .forget{
+    margin-top:5px ;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* /function Login() {
+  const [password,setPassword] = useState("")
+  const [color,setColor] = useState("black")
+  const [strength,setStrength] = useState("")
+  const [password1,setPassword1] = useState("")
+  //regular expression
+  var regex = new Array();
+  regex.push("[A-Z]"); //Uppercase Alphabet.
+  regex.push("[a-z]"); //Lowercase Alphabet.
+  regex.push("[0-9]"); //Digit.
+  regex.push("[$@$!%*#?&]");
+  var pass = 2;
+  //validation for eachregular expression
+  regex.forEach((ele) => {
+      if(new RegExp(ele).test(password)){
+          pass++
+      }
+
+  });
+  //validation for length of the password
+  if(pass>2 && password.length>8){
+      pass++
+  }
+  // displayed status
+  
+  switch(pass){
+      case 0:
+          case 1:
+              setStrength("low");
+              setColor("red");
+              break;
+
+              case 2:
+                  setStrength("medium");
+                  setColor("orange");
+                  break;
+                  
+              case 3:
+              case 4:
+                  setStrength("high");
+                  setColor("green");
+                  break;
+  }
+return*/ 

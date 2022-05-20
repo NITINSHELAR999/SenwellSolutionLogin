@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/* <div className='login'>
+
+<div >
+    <div >
+        <div>
+    <label> Email</label><br/>
+    <input type ="text"/><br/>
+    </div>
+    </div>
+
+    <label htmlFor="Email"> Password</label><br/>
+    <input type ="text" onChange={(e)=>setPassword1(e.target.value)}/><br/><br/>
+    <span></span>
+
+    <div>
+<input type="checkbox" id="subscribeNews" name="subscribe" value="newsletter"/>
+<label for="subscribeNews">Subscribe to newsletter?</label> <label>Recover password</label>
+</div>
+    <div>
+    <input type="submit" className='btn btn-primary' value="SIGN IN"/>
+    </div>
+</div>
+</div> */
