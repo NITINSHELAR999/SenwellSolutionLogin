@@ -13,26 +13,3 @@ code {
 }
 
 
-/* <div className='login'>
-
-<div >
-    <div >
-        <div>
-    <label> Email</label><br/>
-    <input type ="text"/><br/>
-    </div>
-    </div>
-
-    <label htmlFor="Email"> Password</label><br/>
-    <input type ="text" onChange={(e)=>setPassword1(e.target.value)}/><br/><br/>
-    <span></span>
-
-    <div>
-<input type="checkbox" id="subscribeNews" name="subscribe" value="newsletter"/>
-<label for="subscribeNews">Subscribe to newsletter?</label> <label>Recover password</label>
-</div>
-    <div>
-    <input type="submit" className='btn btn-primary' value="SIGN IN"/>
-    </div>
-</div>
-</div> */
