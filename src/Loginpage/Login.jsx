@@ -4,7 +4,6 @@ import {useEffect, useState } from 'react'
 function Login() {
   const [password, setPassword] = useState("")
   const [color, setColor] = useState("black")
-  const [strength, setStrength] = useState("")
   //regular expression
   var regex = new Array();
   regex.push("[A-Z]"); //Uppercase Alphabet.
@@ -28,15 +27,15 @@ regex.forEach((ele) => {
 // displayed status condtion check kartoy 
 const Validation=()=>{
     if(pass==0 || pass==1|| pass==2){
-        setStrength("low");
+       
         setColor("red");
     }
     if(pass==4 || pass==3 ){
-        setStrength("medium");
-        setColor("yello");
+        
+        setColor("orange");
     }
     if(pass==5 || pass==6){
-        setStrength("high");
+       
         setColor("green");
     }
   }
@@ -56,8 +55,7 @@ const Validation=()=>{
           <input type="text" id="fname" name="firstname" placeholder="Enter Your email"/>
       
           <label for="lname">Password</label>
-          <input type="text" onChange={(e) => setPassword(e.target.value)} onKeyUp={(e)=>{setPassword(e.target.value)}} id="lname" name="lastname" placeholder="Enter your password"/>
-          <h3 ><span style={{color:color}}>{strength}</span></h3>
+          <input type="text" style={{color:color}} onChange={(e) => setPassword(e.target.value)} onKeyUp={(e)=>{setPassword(e.target.value)}} id="lname" name="lastname" placeholder="Enter your password"/>
           <div className="page">
           
 
