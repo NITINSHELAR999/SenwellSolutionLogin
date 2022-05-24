@@ -35,7 +35,7 @@ body{
 .logo{
     width: 30%;
     position: absolute;
-    top: 30%;
+    top: 33%;
    left: 15%;
 
 }
@@ -67,7 +67,7 @@ input[type=text] {
   }
   .remember{
    padding-right: 2px;
-    margin-right: 130px;
+    margin-right: 125px;
     
   }
   .recover{
